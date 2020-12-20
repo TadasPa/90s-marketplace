@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Product successfully 1`] = `
+<div>
+  <div>
+    <h1>
+      Product A
+    </h1>
+    <p>
+      Price: 
+      10USD
+    </p>
+    <button
+      data-testid="product-add-to-cart-a-testid"
+    >
+      Add to cart
+    </button>
+    <div>
+      <img
+        alt="Product A"
+        src="a.jpg"
+        width="640"
+      />
+    </div>
+  </div>
+</div>
+`;

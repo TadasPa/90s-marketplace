@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Cart successfully with products 1`] = `
+<div>
+  <ul>
+    <li>
+      <span>
+        Product A
+      </span>
+      <span>
+         Amount: 
+        5
+      </span>
+      <button
+        data-testid="remove-button-a-testid"
+      >
+        x
+      </button>
+    </li>
+    <li>
+      <span>
+        Product B
+      </span>
+      <span>
+         Amount: 
+        2
+      </span>
+      <button
+        data-testid="remove-button-b-testid"
+      >
+        x
+      </button>
+    </li>
+  </ul>
+</div>
+`;

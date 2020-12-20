@@ -15,7 +15,12 @@ const Cart: FC<ICart> = ({ products = [], onRemove }) => {
           <li key={product.id}>
             <span>{product.title}</span>
             <span> Amount: {product.amount}</span>
-            <button onClick={handleRemove}>x</button>
+            <button
+              data-testid={`remove-button-${product.id}-testid`}
+              onClick={handleRemove}
+            >
+              x
+            </button>
           </li>
         );
       }),
